@@ -1,0 +1,19 @@
+.optionButton {
+  padding: 5px 15px;
+  background-color: hsl(0, 0%, 35%);
+  color: hwb(0 100% 0%);
+  border: 1px solid gray;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin-right: 10px;
+  transition: 300ms ease-in-out;
+}
+
+.optionButton:active {
+  background-color: hwb(0 14% 86%);
+  color: white;
+}
+.optionButton:hover {
+  transform: scale(1.1);
+}
